@@ -1,0 +1,54 @@
+/**
+  * @name Custom UI Tweaks
+  * @author fredi_68
+  * @description Collection of minor UI changes meant to use in conjunction with GooseNest's RevertRebrand theme
+  * @invite 
+  * @version 1.0
+*/
+
+/*
+Fix reactions. And I mean that.
+*/
+.reaction-1hd86g {
+  border-radius: 0.25rem;
+  background: unset;
+  border-color: transparent !important;
+  margin-right: 3px;
+}
+
+.reaction-1hd86g.reactionMe-wv5HKu {
+  background-color: unset;
+}
+
+/*
+Remove the ghastly puke-yellow mentioned message
+background and replace it with a nice, calm,
+oldschool discord purple
+*/
+.mentioned-xhSam7 {
+  background-color: unset;
+  border-color: var(--brand-experiment-10a);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 3px;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  margin-top: 0.3em !important;
+  margin-bottom: 0.3em !important;
+}
+
+.mentioned-xhSam7:hover {
+  background-color: var(--brand-experiment-10a) !important;
+}
+
+.mentioned-xhSam7:before {
+  background-color: var(--brand-experiment-460);
+}
+
+/*
+Remove the quick access buttons because
+context menu is already OP
+*/
+.buttonContainer-DHceWr {
+  display: none !important;
+}
