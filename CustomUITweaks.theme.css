@@ -9,14 +9,14 @@
 /*
 Fix reactions. And I mean that.
 */
-.reaction-1hd86g {
+.reaction-2A2y9y {
   border-radius: 0.25rem;
   background: unset;
   border-color: transparent !important;
   margin-right: 3px;
 }
 
-.reaction-1hd86g.reactionMe-wv5HKu {
+.reaction-2A2y9y.reactionMe-wv5HKu {
   background-color: unset;
 }
 
@@ -25,7 +25,7 @@ Remove the ghastly puke-yellow mentioned message
 background and replace it with a nice, calm,
 oldschool discord purple
 */
-.mentioned-xhSam7 {
+.mentioned-Tre-dv {
   background-color: unset;
   border-color: var(--brand-experiment-10a);
   border-style: solid;
@@ -37,11 +37,15 @@ oldschool discord purple
   margin-bottom: 0.3em !important;
 }
 
-.mentioned-xhSam7:hover {
+.mentioned-Tre-dv:hover {
   background-color: var(--brand-experiment-10a) !important;
 }
 
-.mentioned-xhSam7:before {
+.mentioned-Tre-dv.selected-2LX7Jy {
+  background-color: var(--brand-experiment-10a) !important;
+}
+
+.mentioned-Tre-dv:before {
   background-color: var(--brand-experiment-460);
 }
 
@@ -49,6 +53,6 @@ oldschool discord purple
 Remove the quick access buttons because
 context menu is already OP
 */
-.buttonContainer-DHceWr {
+.buttonContainer-1502pf {
   display: none !important;
 }
