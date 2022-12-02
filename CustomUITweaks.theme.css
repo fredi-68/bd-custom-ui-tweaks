@@ -7,6 +7,19 @@
 */
 
 /*
+Remove the funny new font
+*/
+@font-face {
+  font-family: "Whitney";
+  src: url(/assets/b22a047b24393561750b742d8d88a48a.woff2) format("woff2"); /* Expect this to change eventually, TODO: find a workaround for using local files */
+}
+* {
+  --font-primary: "Whitney","Helvetica Neue",Helvetica,Arial,"Noto Sans",sans-serif !important;
+  --font-display: "Whitney","Helvetica Neue",Helvetica,Arial,"Noto Sans",sans-serif !important;
+  --font-headline: "ABC Ginto Nord","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+
+/*
 Fix reactions. And I mean that.
 */
 .reaction-3vwAF2 {
@@ -16,7 +29,7 @@ Fix reactions. And I mean that.
   margin-right: 3px;
 }
 
-.reaction-2A2y9y.reactionMe-3I9gFK {
+.reaction-3vwAF2.reactionMe-1PwQAc {
   background-color: unset;
 }
 
