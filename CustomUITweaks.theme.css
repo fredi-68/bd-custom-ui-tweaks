@@ -22,14 +22,14 @@ Remove the funny new font
 /*
 Fix reactions. And I mean that.
 */
-.reaction-3vwAF2 {
+.reaction_fef95b {
   border-radius: 0.25rem;
   background: unset;
   border-color: transparent !important;
   margin-right: 3px;
 }
 
-.reaction-3vwAF2.reactionMe-1PwQAc {
+.reaction_fef95b.reactionMe__98f57 {
   background-color: unset;
 }
 
@@ -38,7 +38,7 @@ Remove the ghastly puke-yellow mentioned message
 background and replace it with a nice, calm,
 oldschool discord purple
 */
-.mentioned-Tre-dv {
+.mentioned__58017 {
   background-color: unset;
   border-color: var(--brand-experiment-10a);
   border-style: solid;
@@ -50,15 +50,15 @@ oldschool discord purple
   margin-bottom: 0.3em !important;
 }
 
-.mentioned-Tre-dv:hover {
+.mentioned__58017:hover {
   background-color: var(--brand-experiment-10a) !important;
 }
 
-.mentioned-Tre-dv.selected-2LX7Jy {
+.mentioned__58017.selected-2LX7Jy {
   background-color: var(--brand-experiment-10a) !important;
 }
 
-.mentioned-Tre-dv:before {
+.mentioned__58017:before {
   background-color: var(--brand-experiment-460);
 }
 
@@ -66,6 +66,6 @@ oldschool discord purple
 Remove the quick access buttons because
 context menu is already OP
 */
-.buttonContainer-1502pf {
+.buttonContainer_dd4b62 {
   display: none !important;
 }
