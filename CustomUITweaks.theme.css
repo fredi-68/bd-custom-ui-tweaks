@@ -33,6 +33,10 @@ Fix reactions. And I mean that.
   background-color: unset;
 }
 
+.reaction_fef95b.reactionMe__98f57 .reactionCount_b49901 {
+  color: var(--brand-experiment-460);
+}
+
 /*
 Remove the ghastly puke-yellow mentioned message
 background and replace it with a nice, calm,
