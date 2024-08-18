@@ -17,24 +17,27 @@ Remove the funny new font
   --font-primary: "Whitney","Helvetica Neue",Helvetica,Arial,"Noto Sans",sans-serif !important;
   --font-display: "Whitney","Helvetica Neue",Helvetica,Arial,"Noto Sans",sans-serif !important;
   --font-headline: "ABC Ginto Nord","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+
+  --cuit-purple: #7d92dd;
+  --cuit-purple-2: rgba(114,137,218,0.1);
 }
 
 /*
 Fix reactions. And I mean that.
 */
-.reaction_fef95b {
+.reaction_ec6b19 {
   border-radius: 0.25rem;
   background: unset;
   border-color: transparent !important;
   margin-right: 3px;
 }
 
-.reaction_fef95b.reactionMe__98f57 {
+.reaction_ec6b19.reactionMe_ec6b19 {
   background-color: unset;
 }
 
-.reaction_fef95b.reactionMe__98f57 .reactionCount_b49901 {
-  color: var(--brand-experiment-460);
+.reaction_ec6b19.reactionMe_ec6b19 .reactionCount_ec6b19 {
+  color: var(--cuit-purple);
 }
 
 /*
@@ -42,9 +45,9 @@ Remove the ghastly puke-yellow mentioned message
 background and replace it with a nice, calm,
 oldschool discord purple
 */
-.mentioned__58017 {
+.mentioned_d5deea {
   background-color: unset;
-  border-color: var(--brand-experiment-10a);
+  border-color: var(--cuit-purple-2);
   border-style: solid;
   border-width: 2px;
   border-radius: 3px;
@@ -54,22 +57,22 @@ oldschool discord purple
   margin-bottom: 0.3em !important;
 }
 
-.mentioned__58017:hover {
-  background-color: var(--brand-experiment-10a) !important;
+.mentioned_d5deea:hover {
+  background-color: var(--cuit-purple-2) !important;
 }
 
-.mentioned__58017.selected-2LX7Jy {
-  background-color: var(--brand-experiment-10a) !important;
+.mentioned_d5deea.selected_d5deea {
+  background-color: var(--cuit-purple-2) !important;
 }
 
-.mentioned__58017:before {
-  background-color: var(--brand-experiment-460);
+.mentioned_d5deea:before {
+  background-color: var(--cuit-purple);
 }
 
 /*
 Remove the quick access buttons because
 context menu is already OP
 */
-.buttonContainer_dd4b62 {
+.buttonContainer_f9f2ca {
   display: none !important;
 }
