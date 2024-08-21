@@ -76,3 +76,19 @@ context menu is already OP
 .buttonContainer_f9f2ca {
   display: none !important;
 }
+
+/*
+Remove useless buttons from the message
+bar. The message bar is for messages.
+*/
+.channelAppLauncher_df39bd {
+    display: none !important;
+}
+
+.button_dd4f85[aria-label="Send a gift"] {
+    display: none !important;
+}
+
+.button_dd4f85[aria-label="Open sticker picker"] {
+    display: none !important;
+}
