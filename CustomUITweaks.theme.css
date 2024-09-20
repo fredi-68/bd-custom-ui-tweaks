@@ -92,3 +92,16 @@ bar. The message bar is for messages.
 .button_dd4f85[aria-label="Open sticker picker"] {
     display: none !important;
 }
+
+/*
+Restore the old add reaction button behavior
+to what it was back when discord designers
+knew how to build a functioning UI
+*/
+.reactionBtn_ec6b19 {
+    visibility: hidden;
+}
+
+.messageListItem_d5deea:hover .reactionBtn_ec6b19 {
+    visibility: visible;
+}
