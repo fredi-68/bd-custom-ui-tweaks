@@ -25,18 +25,18 @@ Remove the funny new font
 /*
 Fix reactions. And I mean that.
 */
-.reaction_ec6b19 {
+.reaction__23977 {
   border-radius: 0.25rem;
   background: unset;
   border-color: transparent !important;
   margin-right: 3px;
 }
 
-.reaction_ec6b19.reactionMe_ec6b19 {
+.reaction__23977.reactionMe__23977 {
   background-color: unset;
 }
 
-.reaction_ec6b19.reactionMe_ec6b19 .reactionCount_ec6b19 {
+.reaction__23977.reactionMe__23977 .reactionCount__23977 {
   color: var(--cuit-purple);
 }
 
@@ -45,7 +45,7 @@ Remove the ghastly puke-yellow mentioned message
 background and replace it with a nice, calm,
 oldschool discord purple
 */
-.mentioned_d5deea {
+.mentioned__5126c {
   background-color: unset;
   border-color: var(--cuit-purple-2);
   border-style: solid;
@@ -57,15 +57,15 @@ oldschool discord purple
   margin-bottom: 0.3em !important;
 }
 
-.mentioned_d5deea:hover {
+.mentioned__5126c:hover {
   background-color: var(--cuit-purple-2) !important;
 }
 
-.mentioned_d5deea.selected_d5deea {
+.mentioned__5126c.selected__5126c {
   background-color: var(--cuit-purple-2) !important;
 }
 
-.mentioned_d5deea:before {
+.mentioned__5126c:before {
   background-color: var(--cuit-purple);
 }
 
@@ -73,7 +73,7 @@ oldschool discord purple
 Remove the quick access buttons because
 context menu is already OP
 */
-.buttonContainer_f9f2ca {
+.buttonContainer_c19a55 {
   display: none !important;
 }
 
@@ -81,15 +81,15 @@ context menu is already OP
 Remove useless buttons from the message
 bar. The message bar is for messages.
 */
-.channelAppLauncher_df39bd {
+.channelAppLauncher_e6e74f {
     display: none !important;
 }
 
-.button_dd4f85[aria-label="Send a gift"] {
+.button__201d5[aria-label="Send a gift"] {
     display: none !important;
 }
 
-.button_dd4f85[aria-label="Open sticker picker"] {
+.button__201d5[aria-label="Open sticker picker"] {
     display: none !important;
 }
 
@@ -98,10 +98,10 @@ Restore the old add reaction button behavior
 to what it was back when discord designers
 knew how to build a functioning UI
 */
-.reactionBtn_ec6b19 {
+.reactionBtn__23977 {
     visibility: hidden;
 }
 
-.messageListItem_d5deea:hover .reactionBtn_ec6b19 {
+.messageListItem__5126c:hover .reactionBtn__23977 {
     visibility: visible;
 }
