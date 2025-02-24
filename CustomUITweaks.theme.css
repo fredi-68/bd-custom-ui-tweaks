@@ -70,6 +70,18 @@ oldschool discord purple
 }
 
 /*
+Also replace the mentioned badge red with
+the same color
+*/
+.numberBadge__2b1f5 {
+    background-color: var(--cuit-purple);
+}
+
+.iconBadgeBottom__9293f {
+    background-color: var(--cuit-purple); /* And inbox as well for coherency */
+}
+
+/*
 Remove the quick access buttons because
 context menu is already OP
 */
