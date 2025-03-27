@@ -33,7 +33,7 @@ Fix reactions. And I mean that.
 }
 
 .reaction__23977.reactionMe__23977 {
-  background-color: unset;
+  background-color: unset !important;
 }
 
 .reaction__23977.reactionMe__23977 .reactionCount__23977 {
