@@ -40,6 +40,11 @@ Fix reactions. And I mean that.
   color: var(--cuit-purple);
 }
 
+/*This keeps getting worse...*/
+.visual-refresh .reaction__23977.reactionMe__23977 {
+    background-color: unset !important;
+}
+
 /*
 Remove the ghastly puke-yellow mentioned message
 background and replace it with a nice, calm,
