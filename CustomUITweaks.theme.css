@@ -25,23 +25,23 @@ Remove the funny new font
 /*
 Fix reactions. And I mean that.
 */
-.reaction__23977 {
+._23977d5b7cef7361-reaction {
   border-radius: 0.25rem;
   background: unset;
   border-color: transparent !important;
   margin-right: 3px;
 }
 
-.reaction__23977.reactionMe__23977 {
+._23977d5b7cef7361-reaction._23977d5b7cef7361-reactionMe {
   background-color: unset !important;
 }
 
-.reaction__23977.reactionMe__23977 .reactionCount__23977 {
+._23977d5b7cef7361-reaction._23977d5b7cef7361-reactionMe ._23977d5b7cef7361-reactionCount {
   color: var(--cuit-purple);
 }
 
 /*This keeps getting worse...*/
-.visual-refresh .reaction__23977.reactionMe__23977 {
+.visual-refresh ._23977d5b7cef7361-reaction._23977d5b7cef7361-reactionMe {
     background-color: unset !important;
 }
 
@@ -50,7 +50,7 @@ Remove the ghastly puke-yellow mentioned message
 background and replace it with a nice, calm,
 oldschool discord purple
 */
-.mentioned__5126c {
+._5126c0cd07f243a0-mentioned {
   background-color: unset;
   border-color: var(--cuit-purple-2);
   border-style: solid;
@@ -62,15 +62,15 @@ oldschool discord purple
   margin-bottom: 0.3em !important;
 }
 
-.mentioned__5126c:hover {
+._5126c0cd07f243a0-mentioned:hover {
   background-color: var(--cuit-purple-2) !important;
 }
 
-.mentioned__5126c.selected__5126c {
+._5126c0cd07f243a0-mentioned._5126c0cd07f243a0-selected {
   background-color: var(--cuit-purple-2) !important;
 }
 
-.mentioned__5126c:before {
+._5126c0cd07f243a0-mentioned:before {
   background-color: var(--cuit-purple);
 }
 
@@ -78,11 +78,11 @@ oldschool discord purple
 Also replace the mentioned badge red with
 the same color
 */
-.numberBadge__2b1f5 {
+._2b1f52e43a8f1c02-numberBadge {
     background-color: var(--cuit-purple);
 }
 
-.iconBadgeBottom__9293f {
+.c99c29809d200a61-badge {
     background-color: var(--cuit-purple); /* And inbox as well for coherency */
 }
 
@@ -90,7 +90,7 @@ the same color
 Remove the quick access buttons because
 context menu is already OP
 */
-.buttonContainer_c19a55 {
+.c19a557985eb7793-buttonContainer {
   display: none !important;
 }
 
@@ -98,15 +98,15 @@ context menu is already OP
 Remove useless buttons from the message
 bar. The message bar is for messages.
 */
-.channelAppLauncher_e6e74f {
+.app-launcher-entrypoint {
     display: none !important;
 }
 
-.button__201d5[aria-label="Send a gift"] {
+._740174f3d6a2c8fe-button[aria-label="Send a gift"] {
     display: none !important;
 }
 
-.button__201d5[aria-label="Open sticker picker"] {
+._740174f3d6a2c8fe-button[aria-label="Open sticker picker"] {
     display: none !important;
 }
 
@@ -114,6 +114,9 @@ bar. The message bar is for messages.
 Restore the old add reaction button behavior
 to what it was back when discord designers
 knew how to build a functioning UI
+
+(I think this has been fixed now but I'll leave
+this here in case I need it later)
 */
 .reactionBtn__23977 {
     visibility: hidden;
