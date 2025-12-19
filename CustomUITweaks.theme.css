@@ -79,7 +79,7 @@ Also replace the mentioned badge red with
 the same color
 */
 ._2b1f52e43a8f1c02-numberBadge {
-    background-color: var(--cuit-purple);
+    background-color: var(--cuit-purple) !important;
 }
 
 .c99c29809d200a61-badge {
